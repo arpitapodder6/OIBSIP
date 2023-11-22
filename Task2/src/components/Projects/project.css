@@ -1,0 +1,42 @@
+#projects{
+   margin: auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.projectsTitle{
+    font-size:  2.5rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectsImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    max-width: 65rem;
+}
+.projectImg{
+    object-fit: fill;
+    height: 30rem;
+    margin: 0.5rem;
+    width: 55rem;
+    border: none;
+    border-radius: 2.3rem;
+}
+
+@media screen and (max-width: 585px) {
+    .projectImg{
+        height: 50vw;
+    }
+    
+}

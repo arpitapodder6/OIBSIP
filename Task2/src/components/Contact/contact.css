@@ -1,0 +1,22 @@
+#contact{
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: fit;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 0.75rem;    
+} 
